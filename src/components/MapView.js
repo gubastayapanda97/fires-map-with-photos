@@ -9,7 +9,10 @@ class MapView extends Component {
     super(props);
     const { url, maxZoom } = props.tileLayerConfig;
     this.state = {
-      currentLocation: { lat: 54.830594, lng: 40.703231 },
+      currentLocation: {
+        lat: 54.830594,
+        lng: 40.703231,
+      },
       zoom: 13,
       maxZoom,
       url,
@@ -25,10 +28,19 @@ class MapView extends Component {
 
   render() {
     const { currentLocation, zoom, maxZoom, url } = this.state;
+    const { selectedMarker, setSelectedMarker } = this.props;
 
     const handleViewportChanged = props => {
       const { zoom } = props;
-      this.setState(prev => ({ ...prev, zoom: zoom }));
+      if (this.state.zoom !== zoom) {
+        this.setState(prev => ({ ...prev, zoom: zoom }));
+      }
+    };
+
+    const handleMarkerClick = marker => {
+      if (!selectedMarker || selectedMarker?.id !== marker?.id) {
+        setSelectedMarker(marker);
+      }
     };
 
     return (
@@ -43,7 +55,12 @@ class MapView extends Component {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
 
-        <Markers venues={points} mapZoom={zoom} />
+        <Markers
+          venues={points}
+          mapZoom={zoom}
+          selectedMarker={selectedMarker}
+          handleMarkerClick={handleMarkerClick}
+        />
       </Map>
     );
   }

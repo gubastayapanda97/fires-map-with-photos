@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import MapView from './components/MapView';
+import { SelectedMarkerInfo } from './SelectedMarkerInfo';
 import './App.css';
 
 const LAYERS = {
@@ -47,14 +48,21 @@ const LAYERS = {
 
 function App() {
   const [tileLayer, setTileLayer] = useState('ggc');
+  const [selectedMarker, setSelectedMarker] = useState(null);
 
   const handleTileLayerChange = e => {
     setTileLayer(e.target.value);
   };
 
   const Map = useCallback(() => {
-    return <MapView tileLayerConfig={LAYERS[tileLayer]} />;
-  }, [tileLayer]);
+    return (
+      <MapView
+        tileLayerConfig={LAYERS[tileLayer]}
+        selectedMarker={selectedMarker}
+        setSelectedMarker={setSelectedMarker}
+      />
+    );
+  }, [tileLayer, selectedMarker]);
 
   return (
     <div className="App">
@@ -77,6 +85,7 @@ function App() {
         <option value="2GIS">2Gis</option>
       </select>
       <Map />
+      <SelectedMarkerInfo selectedMarker={selectedMarker} />
     </div>
   );
 }
