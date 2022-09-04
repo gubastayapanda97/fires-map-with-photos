@@ -14,6 +14,13 @@ class MapView extends Component {
     };
   }
 
+  componentDidMount() {
+    const controlAttr = document.querySelector('.leaflet-control-attribution');
+    if (controlAttr) {
+      controlAttr.style.display = 'none';
+    }
+  }
+
   render() {
     const { currentLocation, zoom, maxZoom } = this.state;
 
