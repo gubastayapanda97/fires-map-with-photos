@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fires-map-with-photos/static/css/main.57a56f2e.chunk.css",
-    "main.js": "/fires-map-with-photos/static/js/main.76a4d098.chunk.js",
-    "main.js.map": "/fires-map-with-photos/static/js/main.76a4d098.chunk.js.map",
+    "main.css": "/fires-map-with-photos/static/css/main.f39c583e.chunk.css",
+    "main.js": "/fires-map-with-photos/static/js/main.ad81d4e5.chunk.js",
+    "main.js.map": "/fires-map-with-photos/static/js/main.ad81d4e5.chunk.js.map",
     "runtime-main.js": "/fires-map-with-photos/static/js/runtime-main.796f40cc.js",
     "runtime-main.js.map": "/fires-map-with-photos/static/js/runtime-main.796f40cc.js.map",
     "static/css/2.84665c66.chunk.css": "/fires-map-with-photos/static/css/2.84665c66.chunk.css",
-    "static/js/2.3e3b289b.chunk.js": "/fires-map-with-photos/static/js/2.3e3b289b.chunk.js",
-    "static/js/2.3e3b289b.chunk.js.map": "/fires-map-with-photos/static/js/2.3e3b289b.chunk.js.map",
+    "static/js/2.488fb65b.chunk.js": "/fires-map-with-photos/static/js/2.488fb65b.chunk.js",
+    "static/js/2.488fb65b.chunk.js.map": "/fires-map-with-photos/static/js/2.488fb65b.chunk.js.map",
     "index.html": "/fires-map-with-photos/index.html",
-    "precache-manifest.52e738c9d45603dfe0e0631fdd2fe762.js": "/fires-map-with-photos/precache-manifest.52e738c9d45603dfe0e0631fdd2fe762.js",
+    "precache-manifest.401467c4fbbe6d46f111caa8983c70ff.js": "/fires-map-with-photos/precache-manifest.401467c4fbbe6d46f111caa8983c70ff.js",
     "service-worker.js": "/fires-map-with-photos/service-worker.js",
     "static/css/2.84665c66.chunk.css.map": "/fires-map-with-photos/static/css/2.84665c66.chunk.css.map",
-    "static/css/main.57a56f2e.chunk.css.map": "/fires-map-with-photos/static/css/main.57a56f2e.chunk.css.map",
+    "static/css/main.f39c583e.chunk.css.map": "/fires-map-with-photos/static/css/main.f39c583e.chunk.css.map",
     "static/media/1.png": "/fires-map-with-photos/static/media/1.4529c537.png",
     "static/media/10.png": "/fires-map-with-photos/static/media/10.c3ed7ff7.png",
     "static/media/11.png": "/fires-map-with-photos/static/media/11.197686ce.png",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.796f40cc.js",
     "static/css/2.84665c66.chunk.css",
-    "static/js/2.3e3b289b.chunk.js",
-    "static/css/main.57a56f2e.chunk.css",
-    "static/js/main.76a4d098.chunk.js"
+    "static/js/2.488fb65b.chunk.js",
+    "static/css/main.f39c583e.chunk.css",
+    "static/js/main.ad81d4e5.chunk.js"
   ]
 }

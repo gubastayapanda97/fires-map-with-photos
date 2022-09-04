@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fires-map-with-photos/precache-manifest.52e738c9d45603dfe0e0631fdd2fe762.js"
+  "/fires-map-with-photos/precache-manifest.401467c4fbbe6d46f111caa8983c70ff.js"
 );
 
 self.addEventListener('message', (event) => {
