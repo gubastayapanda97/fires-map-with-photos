@@ -10,7 +10,7 @@ class MapView extends Component {
     this.state = {
       currentLocation: { lat: 54.830594, lng: 40.703231 },
       zoom: 13,
-      maxZoom: 25,
+      maxZoom: 20,
     };
   }
 
@@ -24,14 +24,24 @@ class MapView extends Component {
   render() {
     const { currentLocation, zoom, maxZoom } = this.state;
 
+    const handleViewportChanged = props => {
+      const { zoom } = props;
+      this.setState(prev => ({ ...prev, zoom: zoom }));
+    };
+
     return (
-      <Map center={currentLocation} zoom={zoom} maxZoom={maxZoom}>
+      <Map
+        center={currentLocation}
+        zoom={zoom}
+        maxZoom={maxZoom}
+        onViewportChanged={handleViewportChanged}
+      >
         <TileLayer
           url="https://layers.extremum.org/proxy/ggc/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
 
-        <Markers venues={points} />
+        <Markers venues={points} mapZoom={zoom} />
       </Map>
     );
   }
