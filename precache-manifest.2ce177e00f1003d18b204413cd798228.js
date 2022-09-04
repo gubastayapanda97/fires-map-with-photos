@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4dbb2fcbec5a1e706a214ad678cd698",
+    "revision": "27c129ff61b4eabd083b2bfb3a7b2eb3",
     "url": "/fires-map-with-photos/index.html"
   },
   {
-    "revision": "c1f7ed2cdf4fd1998c76",
+    "revision": "9658c0acb825c5bc9517",
     "url": "/fires-map-with-photos/static/css/2.84665c66.chunk.css"
   },
   {
-    "revision": "c452f401f5ddffcd31af",
+    "revision": "21a0dbf05b90c85f045f",
     "url": "/fires-map-with-photos/static/css/main.f39c583e.chunk.css"
   },
   {
-    "revision": "c1f7ed2cdf4fd1998c76",
-    "url": "/fires-map-with-photos/static/js/2.488fb65b.chunk.js"
+    "revision": "9658c0acb825c5bc9517",
+    "url": "/fires-map-with-photos/static/js/2.10825cce.chunk.js"
   },
   {
-    "revision": "c452f401f5ddffcd31af",
-    "url": "/fires-map-with-photos/static/js/main.ad81d4e5.chunk.js"
+    "revision": "21a0dbf05b90c85f045f",
+    "url": "/fires-map-with-photos/static/js/main.ae4152e3.chunk.js"
   },
   {
     "revision": "0ba9b5390db60dc8479a",
@@ -122,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d0dabd5eef1da1515a4958b72f524038",
     "url": "/fires-map-with-photos/static/media/9.d0dabd5e.png"
+  },
+  {
+    "revision": "112e360f6509331b9e81180fed5eee28",
+    "url": "/fires-map-with-photos/static/media/selected_venue_location_icon.112e360f.svg"
   },
   {
     "revision": "2ceaf661f7c099123415f94f97e2a0c5",

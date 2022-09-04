@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fires-map-with-photos/static/css/main.f39c583e.chunk.css",
-    "main.js": "/fires-map-with-photos/static/js/main.ad81d4e5.chunk.js",
-    "main.js.map": "/fires-map-with-photos/static/js/main.ad81d4e5.chunk.js.map",
+    "main.js": "/fires-map-with-photos/static/js/main.ae4152e3.chunk.js",
+    "main.js.map": "/fires-map-with-photos/static/js/main.ae4152e3.chunk.js.map",
     "runtime-main.js": "/fires-map-with-photos/static/js/runtime-main.796f40cc.js",
     "runtime-main.js.map": "/fires-map-with-photos/static/js/runtime-main.796f40cc.js.map",
     "static/css/2.84665c66.chunk.css": "/fires-map-with-photos/static/css/2.84665c66.chunk.css",
-    "static/js/2.488fb65b.chunk.js": "/fires-map-with-photos/static/js/2.488fb65b.chunk.js",
-    "static/js/2.488fb65b.chunk.js.map": "/fires-map-with-photos/static/js/2.488fb65b.chunk.js.map",
+    "static/js/2.10825cce.chunk.js": "/fires-map-with-photos/static/js/2.10825cce.chunk.js",
+    "static/js/2.10825cce.chunk.js.map": "/fires-map-with-photos/static/js/2.10825cce.chunk.js.map",
     "index.html": "/fires-map-with-photos/index.html",
-    "precache-manifest.401467c4fbbe6d46f111caa8983c70ff.js": "/fires-map-with-photos/precache-manifest.401467c4fbbe6d46f111caa8983c70ff.js",
+    "precache-manifest.2ce177e00f1003d18b204413cd798228.js": "/fires-map-with-photos/precache-manifest.2ce177e00f1003d18b204413cd798228.js",
     "service-worker.js": "/fires-map-with-photos/service-worker.js",
     "static/css/2.84665c66.chunk.css.map": "/fires-map-with-photos/static/css/2.84665c66.chunk.css.map",
     "static/css/main.f39c583e.chunk.css.map": "/fires-map-with-photos/static/css/main.f39c583e.chunk.css.map",
@@ -38,13 +38,14 @@
     "static/media/7.png": "/fires-map-with-photos/static/media/7.44a1d9e5.png",
     "static/media/8.png": "/fires-map-with-photos/static/media/8.0dd202af.png",
     "static/media/9.png": "/fires-map-with-photos/static/media/9.d0dabd5e.png",
+    "static/media/selected_venue_location_icon.svg": "/fires-map-with-photos/static/media/selected_venue_location_icon.112e360f.svg",
     "static/media/venue_location_icon.svg": "/fires-map-with-photos/static/media/venue_location_icon.2ceaf661.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.796f40cc.js",
     "static/css/2.84665c66.chunk.css",
-    "static/js/2.488fb65b.chunk.js",
+    "static/js/2.10825cce.chunk.js",
     "static/css/main.f39c583e.chunk.css",
-    "static/js/main.ad81d4e5.chunk.js"
+    "static/js/main.ae4152e3.chunk.js"
   ]
 }
