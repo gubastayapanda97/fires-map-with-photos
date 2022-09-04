@@ -8,7 +8,7 @@ import {
   VenueLocationIcon,
   SelectedVenueLocationIcon,
 } from './VenueLocationIcon';
-import MarkerPopup from './MarkerPopup';
+// import MarkerPopup from './MarkerPopup';
 
 const createClusterCustomIcon = function (cluster) {
   return L.divIcon({
